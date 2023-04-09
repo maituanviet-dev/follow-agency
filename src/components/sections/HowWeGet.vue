@@ -47,7 +47,8 @@
 						class="text-center font-semibold text-xl group-hover:text-white group-hover:font-extrabold transition-colors ease-in-out duration-300"
 						>{{ item.title }}</strong
 					>
-					<p class="group-hover:text-fa-E6EEFF group-hover:font-bold transition-colors ease-in-out duration-300">
+					<p
+						class="group-hover:text-fa-E6EEFF font-medium group-hover:font-bold transition-colors ease-in-out duration-300">
 						{{ item.description }}
 					</p>
 				</div>
