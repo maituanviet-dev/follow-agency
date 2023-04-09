@@ -40,7 +40,7 @@
 </script>
 
 <template>
-	<section id="why-choose-us" class="lg:p-8">
+	<section id="why-choose-us" class="lg:px-8">
 		<div class="bg-fa-E6EEFF lg:rounded-xl">
 			<main class="container grid lg:grid-cols-2 xl:gap-4 gap-9 py-20 text-fa-051942">
 				<!-- Left -->
