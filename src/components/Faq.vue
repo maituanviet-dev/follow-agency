@@ -1,6 +1,4 @@
 <script>
-import { ChevronDownIcon, ChevronRightIcon } from '@heroicons/vue/24/solid';
-
 export default {
   data() {
     return {
@@ -8,7 +6,6 @@ export default {
     };
   },
   props: ['question', 'answer'],
-  components: { ChevronRightIcon, ChevronDownIcon },
 };
 </script>
 <template>
@@ -22,8 +19,10 @@ export default {
       >
         {{ question }}
       </span>
-      <ChevronRightIcon
-        class="w-6 h-3 text-white mr-2 font-bold stroke-2 transition ease-in-out"
+      <img
+        src="/arrow.svg"
+        alt=">"
+        class="w-6 h-4 text-white mr-2 font-bold stroke-2 transition ease-in-out"
         :class="{ [`rotate-90`]: active }"
       />
     </button>
@@ -36,7 +35,7 @@ export default {
         class="bg-[#E5EEFF] pt-6 pb-8 mt-1.5 px-4 md:px-16 transition ease-in-out"
       >
         <span
-          class="font-manrope text-[##051942] text-base whitespace-pre-wrap tracking-wide"
+          class="font-manrope text-[##051942] text-base whitespace-pre-wrap tracking-wide leading-7"
         >
           {{ answer }}
         </span>

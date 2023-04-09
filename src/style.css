@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Style for active link */
+.router-link-active.router-link-exact-active span {
+	@apply text-fa-6886C5;
+}
