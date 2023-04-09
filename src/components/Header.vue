@@ -1,28 +1,28 @@
 <script setup>
-import { ref } from 'vue';
-import { Dialog, DialogPanel } from '@headlessui/vue';
-import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline';
+	import { ref } from 'vue';
+	import { Dialog, DialogPanel } from '@headlessui/vue';
+	import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline';
 
-const navs = [
-	{
-		to: '/growth/',
-		name: 'Growth'
-	},
-	{
-		to: '/pricing/',
-		name: 'Pricing'
-	},
-	{
-		to: '/about-us/',
-		name: 'About us'
-	},
-	{
-		to: '/faqs/',
-		name: 'FAQs'
-	}
-];
+	const navs = [
+		{
+			to: '/',
+			name: 'Growth'
+		},
+		{
+			to: '/pricing/',
+			name: 'Pricing'
+		},
+		{
+			to: '/about-us/',
+			name: 'About us'
+		},
+		{
+			to: '/faqs/',
+			name: 'FAQs'
+		}
+	];
 
-const mobileMenuOpen = ref(false);
+	const mobileMenuOpen = ref(false);
 </script>
 <template>
 	<header class="font-manrope flex items-center container pt-6">
@@ -45,34 +45,23 @@ const mobileMenuOpen = ref(false);
 			<button type="button" class="mr-14">English</button>
 			<button
 				type="button"
-				class="rounded-md py-3.5 px-9 bg-fa-FFE0AC hover:bg-fa-FFCC76 transition-colors duration-300 ease-in-out text-fa-051942"
-			>
+				class="rounded-md py-3.5 px-9 bg-fa-FFE0AC hover:bg-fa-FFCC76 transition-colors duration-300 ease-in-out text-fa-051942">
 				Login
 			</button>
 		</div>
 
 		<!-- Toggler -->
-		<button
-			type="button"
-			class="ml-auto lg:ml-0 lg:hidden"
-			@click="mobileMenuOpen = true"
-		>
+		<button type="button" class="ml-auto lg:ml-0 lg:hidden" @click="mobileMenuOpen = true">
 			<Bars3Icon class="h-6 w-6" aria-hidden="true" />
 		</button>
 
 		<!-- Mobile menu -->
-		<Dialog
-			as="div"
-			class="lg:hidden"
-			@close="mobileMenuOpen = false"
-			:open="mobileMenuOpen"
-		>
+		<Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
 			<!-- BACKDROP -->
 			<div class="fixed inset-0 z-50" />
 			<!-- CONTENT -->
 			<DialogPanel
-				class="fixed inset-y-0 right-0 flex px-4 pb-4 pt-6 bg-white z-50 flex-col gap-6 w-full sm:max-w-sm sm:ring-1 sm:ring-fa-051942/10"
-			>
+				class="fixed inset-y-0 right-0 flex px-4 pb-4 pt-6 bg-white z-50 flex-col gap-6 w-full sm:max-w-sm sm:ring-1 sm:ring-fa-051942/10">
 				<div class="flex justify-between">
 					<router-link to="/">
 						<img src="../assets/logo.svg" alt="Logo" />
@@ -86,8 +75,7 @@ const mobileMenuOpen = ref(false);
 					<button type="button" class="mr-14">English</button>
 					<button
 						type="button"
-						class="rounded-md py-2 px-4 bg-fa-FFE0AC hover:bg-fa-FFCC76 transition-colors duration-300 ease-in-out text-fa-051942"
-					>
+						class="rounded-md py-2 px-4 bg-fa-FFE0AC hover:bg-fa-FFCC76 transition-colors duration-300 ease-in-out text-fa-051942">
 						Login
 					</button>
 				</div>
