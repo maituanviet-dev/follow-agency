@@ -20,7 +20,8 @@ export default {
 				'fa-6886C5': '#6886C5',
 				'fa-FFE0AC': ' #FFE0AC',
 				'fa-FFCC76': '#FFCC76',
-				'fa-051942': '#051942'
+				'fa-051942': '#051942',
+				'fa-E6EEFF': '#E6EEFF'
 			}
 		}
 	},

@@ -1,11 +1,10 @@
 <script setup>
-import Footer from '../components/Footer.vue';
-import Header from '../components/Header.vue';
-
+	import Layout from '../components/Layout.vue'
+	import HowWeWork from '../components/sections/HowWeWork.vue'
 </script>
 
 <template>
-
-<Header />
-<Footer />
+	<Layout>
+		<HowWeWork />
+	</Layout>
 </template>
