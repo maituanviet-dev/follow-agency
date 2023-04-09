@@ -8,7 +8,7 @@
 				<div class="grid md:grid-cols-[repeat(3,minmax(0,360px))] justify-center gap-10 items-stretch">
 					<!-- First -->
 					<div
-						class="flex flex-col pt-12 py-14 items-center justify-around bg-white rounded-[50px] border-[rgba(104,134,197,0.3)] border">
+						class="flex flex-col pt-12 py-14 items-center justify-around bg-white rounded-[50px] border-[rgba(104,134,197,0.3)] border transition-shadow hover:shadow-[0px_50px_80px_rgba(104,134,197,0.3)] duration-300 ease-in-out">
 						<strong class="text-2xl">3 MONTHS</strong>
 						<span class="font-medium">membership</span>
 
@@ -23,7 +23,7 @@
 					</div>
 					<!-- Second -->
 					<div
-						class="flex flex-col pt-12 py-14 items-center justify-around bg-white rounded-[50px] border-[rgba(104,134,197,0.3)] border">
+						class="flex flex-col pt-12 py-14 items-center justify-around bg-white rounded-[50px] border-[rgba(104,134,197,0.3)] border transition-shadow hover:shadow-[0px_50px_80px_rgba(104,134,197,0.3)] duration-300 ease-in-out">
 						<strong class="text-2xl">6 MONTHS</strong>
 						<span class="font-medium">membership</span>
 
@@ -44,7 +44,7 @@
 					</div>
 					<!-- Last item -->
 					<div
-						class="flex flex-col pt-12 py-14 items-center bg-white rounded-[50px] border-[rgba(104,134,197,0.3)] border">
+						class="flex flex-col pt-12 py-14 items-center bg-white rounded-[50px] border-[rgba(104,134,197,0.3)] border transition-shadow hover:shadow-[0px_50px_80px_rgba(104,134,197,0.3)] duration-300 ease-in-out">
 						<strong class="text-2xl">CONTACT US</strong>
 						<span class="font-medium"> for multiple accounts </span>
 
