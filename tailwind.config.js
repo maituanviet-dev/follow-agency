@@ -21,9 +21,11 @@ export default {
 				'fa-FFE0AC': ' #FFE0AC',
 				'fa-FFCC76': '#FFCC76',
 				'fa-051942': '#051942',
-				'fa-E6EEFF': '#E6EEFF'
+				'fa-E6EEFF': '#E6EEFF',
+				'fa-FFDDE2': '#FFDDE2',
+				'fa-FFEAC7': '#FFEAC7'
 			}
 		}
 	},
 	plugins: []
-}
+};

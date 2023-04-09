@@ -1,5 +1,5 @@
 <template>
-	<section id="how-we-work" class="py-14 bg-fa-E6EEFF font-manrope">
+	<section id="how-we-work" class="py-14 bg-fa-E6EEFF">
 		<main class="container text-center">
 			<h2 class="font-bold text-5xl text-fa-051942">
 				How does Follow Agency work?
