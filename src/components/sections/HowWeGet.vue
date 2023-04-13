@@ -42,7 +42,7 @@
 						alt="image"
 						width="144"
 						class="group-hover:-translate-y-1 transition-transform duration-300 ease-in-out isolate relative z-10" />
-					<img src="image-ellipse.svg" alt="shadow" class="absolute top-28 group-hover:block hidden" />
+					<img src="/image-ellipse.svg" alt="shadow" class="absolute top-28 group-hover:block hidden" />
 					<strong
 						class="text-center font-semibold text-xl group-hover:text-white group-hover:font-extrabold transition-colors ease-in-out duration-300"
 						>{{ item.title }}</strong

@@ -1,39 +1,39 @@
 <script setup>
 	const customers = [
 		{
-			image: 'customer-1.jpg',
+			image: '/customer-1.jpg',
 			name: 'zdenek_turek'
 		},
 		{
-			image: 'customer-2.jpg',
+			image: '/customer-2.jpg',
 			name: 'rterra.cz'
 		},
 		{
-			image: 'customer-3.jpg',
+			image: '/customer-3.jpg',
 			name: 'czechparties.cz'
 		},
 		{
-			image: 'customer-4.jpg',
+			image: '/customer-4.jpg',
 			name: 'alensbeautylife'
 		},
 		{
-			image: 'customer-5.jpg',
+			image: '/customer-5.jpg',
 			name: 'stucco.cz'
 		},
 		{
-			image: 'customer-6.jpg',
+			image: '/customer-6.jpg',
 			name: 'barleyy'
 		},
 		{
-			image: 'customer-7.jpg',
+			image: '/customer-7.jpg',
 			name: 'digitalhouse.cz'
 		},
 		{
-			image: 'customer-8.jpg',
+			image: '/customer-8.jpg',
 			name: 'bymodels_servis'
 		},
 		{
-			image: 'customer-9.jpg',
+			image: '/customer-9.jpg',
 			name: 'bethanyperryart'
 		}
 	];

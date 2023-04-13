@@ -33,7 +33,7 @@
 						enter-active-class="transition duration-1000 ease-in-out"
 						appear>
 						<img
-							src="hero-hand.png"
+							src="/hero-hand.png"
 							alt="hero hand"
 							class="max-w-[79%] w-full aspect-[0.821] absolute mx-auto left-[10%] top-[1.75%]" />
 					</transition>
@@ -43,7 +43,7 @@
 						enter-active-class="transition duration-1000 delay-700 ease-in-out"
 						appear>
 						<img
-							src="hero-1.png"
+							src="/hero-1.png"
 							alt="hero image 1"
 							class="aspect-square w-full max-w-[32.8%] absolute bottom-[2%] right-[2%]" />
 					</transition>
@@ -54,7 +54,7 @@
 						enter-active-class="transition duration-1000 delay-700 ease-in-out"
 						appear>
 						<img
-							src="hero-insta-2.png"
+							src="/hero-insta-2.png"
 							alt="instagram img 1"
 							class="w-full max-w-[50.88%] absolute top-[37.89%] left-[-10.7%]" />
 					</transition>
@@ -65,7 +65,7 @@
 						enter-active-class="transition duration-1000 delay-700 ease-in-out"
 						appear>
 						<img
-							src="hero-insta-1.png"
+							src="/hero-insta-1.png"
 							alt="instagram img 1"
 							class="w-full max-w-[41%] absolute top-[19.47%] left-[4.39%]" />
 					</transition>
