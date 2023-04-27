@@ -62,8 +62,8 @@
 
 				<!-- RIGHT -->
 				<div class="grid md:grid-cols-3 grid-cols-2 gap-y-7 gap-x-12 sm:gap-y-14 sm:gap-x-24">
-					<figure v-for="(customer, index) of customers" :key="index" class="flex flex-col items-center overflow-hidden">
-						<div class="card-zoom overflow-hidden rounded-[12px]">
+					<figure v-for="(customer, index) of customers" :key="index" class="flex flex-col items-center">
+						<div class="card-zoom overflow-hidden sm:w-[100px] aspect-square w-16 rounded-[12px]">
 							<img :src="customer.image" :alt="customer.name" class="sm:w-[100px] aspect-square w-16 card-zoom-image" />
 						</div>
 						<figcaption class="font-bold mt-3 text-base sm:text-xl">{{ customer.name }}</figcaption>
