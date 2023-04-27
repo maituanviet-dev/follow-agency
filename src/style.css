@@ -4,5 +4,13 @@
 
 /* Style for active link */
 .router-link-active.router-link-exact-active span {
-	@apply text-fa-6886C5;
+  @apply text-fa-6886C5;
+}
+
+.card-zoom-image {
+  @apply transition-all duration-500 ease-in-out transform;
+}
+
+.card-zoom:hover .card-zoom-image {
+  @apply scale-150;
 }

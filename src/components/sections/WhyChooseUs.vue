@@ -1,39 +1,39 @@
 <script setup>
 	const customers = [
 		{
-			image: '/customer-1.jpg',
+			image: '/customer-1.png',
 			name: 'zdenek_turek'
 		},
 		{
-			image: '/customer-2.jpg',
+			image: '/customer-2.png',
 			name: 'rterra.cz'
 		},
 		{
-			image: '/customer-3.jpg',
+			image: '/customer-3.png',
 			name: 'czechparties.cz'
 		},
 		{
-			image: '/customer-4.jpg',
+			image: '/customer-4.png',
 			name: 'alensbeautylife'
 		},
 		{
-			image: '/customer-5.jpg',
+			image: '/customer-5.png',
 			name: 'stucco.cz'
 		},
 		{
-			image: '/customer-6.jpg',
+			image: '/customer-6.png',
 			name: 'barleyy'
 		},
 		{
-			image: '/customer-7.jpg',
+			image: '/customer-7.png',
 			name: 'digitalhouse.cz'
 		},
 		{
-			image: '/customer-8.jpg',
+			image: '/customer-8.png',
 			name: 'bymodels_servis'
 		},
 		{
-			image: '/customer-9.jpg',
+			image: '/customer-9.png',
 			name: 'bethanyperryart'
 		}
 	];
@@ -62,8 +62,10 @@
 
 				<!-- RIGHT -->
 				<div class="grid md:grid-cols-3 grid-cols-2 gap-y-7 gap-x-12 sm:gap-y-14 sm:gap-x-24">
-					<figure v-for="customer of customers" class="flex flex-col items-center">
-						<img :src="customer.image" :alt="customer.name" class="sm:w-[100px] aspect-square w-16" />
+					<figure v-for="(customer, index) of customers" :key="index" class="flex flex-col items-center overflow-hidden">
+						<div class="card-zoom overflow-hidden rounded-[12px]">
+							<img :src="customer.image" :alt="customer.name" class="sm:w-[100px] aspect-square w-16 card-zoom-image" />
+						</div>
 						<figcaption class="font-bold mt-3 text-base sm:text-xl">{{ customer.name }}</figcaption>
 					</figure>
 				</div>

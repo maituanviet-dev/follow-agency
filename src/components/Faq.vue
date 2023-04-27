@@ -5,7 +5,7 @@ export default {
       active: false,
     };
   },
-  props: ['question', 'answer'],
+  props: ["question", "answer"],
 };
 </script>
 <template>
@@ -26,14 +26,8 @@ export default {
         :class="{ [`rotate-90`]: active }"
       />
     </button>
-    <Transition
-      enter-active-class="transition ease-in-out"
-      leave-active-class="transition ease-in-out"
-    >
-      <div
-        v-if="active"
-        class="bg-[#E5EEFF] pt-6 pb-8 mt-1.5 px-4 md:px-16 transition ease-in-out"
-      >
+    <Transition name="slide-fade">
+      <div v-if="active" class="bg-[#E5EEFF] pt-6 pb-8 mt-1.5 px-4 md:px-16">
         <span
           class="font-manrope text-[##051942] text-base whitespace-pre-wrap tracking-wide leading-7"
         >
@@ -41,5 +35,33 @@ export default {
         </span>
       </div>
     </Transition>
+    <!-- <transition
+      enter-from-class="translate-y-[50%] opacity-0"
+      enter-active-class="transition duration-500 ease-in-out"
+    >
+      <div v-if="active" class="bg-[#E5EEFF] pt-6 pb-8 mt-1.5 px-4 md:px-16">
+        <span
+          class="font-manrope text-[##051942] text-base whitespace-pre-wrap tracking-wide leading-7"
+        >
+          {{ answer }}
+        </span>
+      </div>
+    </transition> -->
   </div>
 </template>
+
+<style scoped>
+.slide-fade-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.2s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateX(20px);
+  opacity: 0;
+}
+</style>

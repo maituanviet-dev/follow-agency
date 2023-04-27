@@ -4,7 +4,7 @@
 			<h2 class="font-bold text-5xl text-fa-051942">How does Follow Agency work?</h2>
 
 			<iframe
-				src="https://www.youtube.com/embed/a1VPFSh-OdA"
+				src="/video.mp4"
 				title="YouTube video player"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
