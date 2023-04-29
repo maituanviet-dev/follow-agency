@@ -5,7 +5,7 @@
 			name: 'zdenek_turek'
 		},
 		{
-			image: '/customer-2.png',
+			image: '/customer-2.svg',
 			name: 'rterra.cz'
 		},
 		{

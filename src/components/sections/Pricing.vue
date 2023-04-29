@@ -1,5 +1,5 @@
 <template>
-	<section id="pricing" class="bg-no-repeat bg-center bg-cover" :style="{ backgroundImage: `url('pricing-bg.svg')` }">
+	<section id="pricing" class="bg-no-repeat bg-center bg-cover bg-bottom" :style="{ backgroundImage: `url('pricing-bg.svg')` }">
 		<div class="container text-fa-051942 py-16">
 			<header class="text-center">
 				<h2 class="font-bold text-7xl leading-tight">Pricing</h2>
